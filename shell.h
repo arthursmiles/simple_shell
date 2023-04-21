@@ -12,7 +12,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#define BUF_FLUSH-1
 #define READ_BUF_SIZE 1024
 #define WRITE_BUF_SIZE 1024
 
@@ -34,7 +33,7 @@
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \ 0, 0, 0}
 
 
-int interactive(info_t *inf)
+int interactive(ino_t *inf)
 int is_delim(char c, char *delim)
 int _isalpha(int c)
 int _atoi(char *s)
