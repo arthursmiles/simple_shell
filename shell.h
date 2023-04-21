@@ -33,7 +33,7 @@
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \ 0, 0, 0}
 
 
-int interactive(ino_t *inf)
+int interactive(info_t *inf)
 int is_delim(char c, char *delim)
 int _isalpha(int c)
 int _atoi(char *s)
